@@ -23,7 +23,7 @@ renderer.setSize(container.offsetWidth, container.offsetHeight);
 container.appendChild(renderer.domElement);
 
 // Improved water material using MeshPhongMaterial
-const waterGeometry = new THREE.BoxGeometry(80, 73, 10, 104, 104, 1); // Added depth of 10
+const waterGeometry = new THREE.BoxGeometry(75, 73, 10, 104, 104, 1); // Added depth of 10
 
 const positions = waterGeometry.attributes.position;
 const waterMaterial = new THREE.MeshPhongMaterial({
