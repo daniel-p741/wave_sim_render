@@ -25,6 +25,7 @@ html {
     margin-bottom: 5px;
     font-size: 18px;
     color: #333;
+    font-weight: bold;
 }
 
 .slider {
@@ -59,4 +60,8 @@ html {
     background: #4CAF50;
     cursor: pointer;
     border-radius: 50%;
+}
+
+.slider-container span {
+    font-weight: bold;
 }
